@@ -68,5 +68,6 @@ follow these steps:
 	8. MERGE your working branch into your local master branch (or the next higher level branch according to the projects hierarchy). 
 	This step is no necessity, but can keep your local repo more manageable. 
 	After this you can safely delete the branch you were working on.
+	8.5. PUSH these changes so the server gets updated.
 	9. Send a PULL REQUEST to the organization's project distributor (they are like admins to the project. Only they can accept or reject pull requests).
 	With your pull request you ask for merging your local changes into the organization's project.
