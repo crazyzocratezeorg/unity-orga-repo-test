@@ -32,5 +32,8 @@ So the complete workflow goes as follows:
 
 	5. SAVE that changes to the file. (In Unity, or whatever programm you are working in.) Should be obvious but otherwise there won't be any changes to load to the server or the project respectively.
 	6. COMMIT those changes to the LOCAL(!) branch (in your desktop app).
+	7. PUSH the changes. This means you will upload your local repo to the server and update it.
 
 Now you can see those changes only in that specific branch's file. So if you switch between branches and each time open the same file you will have different appearences of that file.
+
+
