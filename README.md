@@ -50,7 +50,9 @@ So the complete workflow goes as follows:
 
 	5. SAVE that changes to the file. (In Unity, or whatever programm you are working in.) 
 	Should be obvious but otherwise there won't be any changes to load to the server or the project respectively.
-	6. COMMIT those changes to the LOCAL(!) branch (in your desktop app).
+	6. COMMIT those changes to the LOCAL(!) branch (in your desktop app). 
+	Make sure you give the commit a fitting name and description so others are able to recognize what exactly has changed. 
+	It's like commenting your piece of code (which is always a good idea).
 	7. PUSH the changes. This means you will upload your local repo to the server and update it. Note that the project that gets updated
 	will be your personal copy of the organization's project. 
 	(This might take a while, according to your bandwidth and your filesize). 
@@ -64,6 +66,7 @@ If your changes are finished and you want to merge it into the project
 follow these steps:
 
 	8. MERGE your working branch into your local master branch (or the next higher level branch according to the projects hierarchy). 
-	This step is no necessity, but can keep your local repo more manageable.
+	This step is no necessity, but can keep your local repo more manageable. 
+	After this you can safely delete the branch you were working on.
 	9. Send a PULL REQUEST to the organization's project distributor (they are like admins to the project. Only they can accept or reject pull requests).
 	With your pull request you ask for merging your local changes into the organization's project.
