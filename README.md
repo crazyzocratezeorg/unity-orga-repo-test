@@ -1,15 +1,6 @@
 # GitHub Workflow with Organizations
 I'm testing, how the orga system inside github works.
 
-
-so this should be seen only in the new branch for now.
-
-But isn't... so what am I doing wrong?
-
-AHH!! So obviously I need to commit changes.
-
-
-
 To work over several days at one file or topic it should work, 
 if the changes on the branch won't merged into a branch on a higher level branch (like master).
 
