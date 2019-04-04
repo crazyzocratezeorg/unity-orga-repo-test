@@ -8,12 +8,7 @@ But isn't... so what am I doing wrong?
 
 AHH!! So obviously I need to commit changes.
 
-So the workflow goes as follows:
-	1. Make a new branch.
-	2. From that branch (let's say 'Edit whatever') edit the file (in Unity, Sublime or whatever filetype it is).
-	3. SAVE that changes to the file.
-	4. COMMIT those changes to the 'Edit whatever' branch.
-	5. That's it for now. Now you can see those changes only in that specific branch's file. Therefor you have two versions.
+
 
 To work over several days at one file or topic it should work, if the changes on the branch won't merged into a branch on a higher level branch (like master).
 
@@ -23,3 +18,19 @@ Now I can open the local file path to that file on my local machine. If all chan
 Once my changes are done, i.e. if a feature is fully working within my project, and I'm happy with them I can now commit those changes to a higher level branch. This can be any branch, even the organization's project master. But it would be good measure to first commit these changes locally to the master and from there merge it into the organization's project. 
 
 To get local changes applied to the GitHub site I need to push them. This only ensures my changes I made on the local machine and to the local GitHub Desktop app are transferred/pushed to the GitHub Server (website).
+
+So the complete workflow goes as follows:
+
+	1. Fork the organization's project to your own account so you can work on it, without getting in too much trouble for killing the project.
+	2. Clone that new account-specific repo to your local machine using, i.e. 'GitHub Dekstop'.
+	3. Before making any changes to the project files make a new branch and name it properly (you also should give a good description of what you are going to change and (maybe) why!). This step is crucial since it is the main part of your version control.
+	4. Select the branch in the desktop app's branch menu. By doing this you make sure, you're not in the master branch of your project repo.
+
+ Now you can start editing your files. While editing it's important to think about the necessity of creating new branches. Maybe if you want to play around something or want to follow another idea and you are afraid you might crash the whole thing it might come in handy to create a new branch off of the master or whatever branch you are in.
+
+ If you are done changing something follow these steps:
+
+	5. SAVE that changes to the file. (In Unity, or whatever programm you are working in.) Should be obvious but otherwise there won't be any changes to load to the server or the project respectively.
+	6. COMMIT those changes to the LOCAL(!) branch (in your desktop app).
+
+Now you can see those changes only in that specific branch's file. So if you switch between branches and each time open the same file you will have different appearences of that file.
