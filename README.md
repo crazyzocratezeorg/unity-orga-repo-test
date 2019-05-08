@@ -1,5 +1,5 @@
-# GitHub Workflow with Organizations
-This is how GitHub works.
+## GitHub Workflow with Organizations
+#This is how GitHub works.
 
 Everything You need to do is open github (desktop) first and open the repository
 You want to work on (well technically it's ok to open github desktop after the
